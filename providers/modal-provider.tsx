@@ -3,11 +3,7 @@
 import { StoreModal } from "@/components/modals/store-modal";
 import { useEffect, useState } from "react";
 
-interface ModalProviderI {
-  children: React.ReactNode;
-}
-
-export const ModalProvider: React.FC<ModalProviderI> = () => {
+export const ModalProvider: React.FC = () => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
