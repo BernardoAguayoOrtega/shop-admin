@@ -17,7 +17,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Adming Dashboard",
+  title: "Admin Dashboard",
   description: "Admin Dashboard",
 };
 
